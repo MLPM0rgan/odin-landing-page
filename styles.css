@@ -2,6 +2,12 @@
 body {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
 
 .section-one {
@@ -9,7 +15,7 @@ body {
 }
 
 .section-three {
-    background-color: #E5E7EB;
+    background-color: gray;
 }
 
 .footer {
