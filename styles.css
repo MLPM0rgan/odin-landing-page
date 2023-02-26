@@ -13,15 +13,19 @@ img {
 .section-one, .section-two,
 .section-three, .section-four {
     height: 512px;
+    display: flex;
 }
 
 .section-one {
     background-color: #1F2937;
 }
 
+.section-two {
+    justify-content: center;
+}
+
 .images {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 48px;
 }
