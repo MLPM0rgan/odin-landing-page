@@ -14,6 +14,12 @@ img {
     background-color: #1F2937;
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .section-three {
     background-color: gray;
 }
