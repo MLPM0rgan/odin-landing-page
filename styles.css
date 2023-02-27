@@ -24,7 +24,7 @@ img {
     justify-content: center;
 }
 
-.images {
+.image-container {
     display: flex;
     align-items: center;
     gap: 48px;
