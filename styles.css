@@ -21,13 +21,26 @@ img {
 }
 
 .section-two {
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 128px;
+}
+
+.image-title {
+    margin: 0;
 }
 
 .image-container {
     display: flex;
     align-items: center;
     gap: 48px;
+}
+
+.captioned-image {
+    max-width: 150px;
+    overflow-wrap: break-word;
+    font-size: 12px;
 }
 
 .section-three {
