@@ -24,7 +24,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 128px;
+    gap: 96px;
 }
 
 .image-title {
@@ -40,7 +40,7 @@ img {
 .captioned-image {
     max-width: 150px;
     overflow-wrap: break-word;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .section-three {
