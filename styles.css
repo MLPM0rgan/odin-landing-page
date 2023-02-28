@@ -3,11 +3,17 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
 }
 
 img {
     width: 150px;
     height: 150px;
+    border: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 15px;
 }
 
 .section-one, .section-two,
@@ -24,7 +30,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 96px;
+    gap: 48px;
 }
 
 .image-title {
@@ -33,7 +39,7 @@ img {
 
 .image-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 48px;
 }
 
