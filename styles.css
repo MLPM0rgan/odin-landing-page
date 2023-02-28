@@ -26,6 +26,10 @@ img {
     background-color: #1F2937;
 }
 
+.header-logo {
+    border: none;
+}
+
 .section-two {
     flex-direction: column;
     justify-content: center;
@@ -47,10 +51,13 @@ img {
     max-width: 150px;
     overflow-wrap: break-word;
     font-size: 14px;
+    font-weight: 600;
 }
 
 .section-three {
     background-color: gray;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
