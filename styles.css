@@ -3,8 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-    'Lucida Sans', Arial, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 img {
@@ -58,6 +57,20 @@ img {
     background-color: gray;
     justify-content: center;
     align-items: center;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+    height: 256px;
+    width: 1635px;
 }
 
 .footer {
