@@ -66,11 +66,26 @@ img {
 }
 
 .call-to-action {
+    font-size: 24px;
     background-color: #3882F6;
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
     height: 256px;
     width: 1635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 420px;
+    color: white;
+}
+
+.submit-button {
+    background: #3882F6;
+    border: 1px solid white;
+    color: white;
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    padding: 1px 8px;
 }
 
 .footer {
