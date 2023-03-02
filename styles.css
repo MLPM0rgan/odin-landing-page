@@ -59,6 +59,27 @@ img {
     align-items: center;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 256px;
+    width: 1226px;
+    gap: 8px;
+}
+
+.quote-text {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 100;
+    font-family: 'Lucida Calligraphy', cursive;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .section-four {
     justify-content: center;
     align-items: center;
