@@ -28,13 +28,23 @@ img {
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header-links {
+    display: flex;
+    gap: 32px;
+    margin-right: 48px;
 }
 
 .title {
-    color: white;
     font-size: 32px;
     font-family: 'Courier New', Courier, monospace;
     padding: 12px;
+    margin-left: 24px;
 }
 
 .section-two {
