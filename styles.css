@@ -34,6 +34,13 @@ img {
     border: none;
 }
 
+.title {
+    color: white;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px;
+}
+
 .section-two {
     flex-direction: column;
     justify-content: center;
