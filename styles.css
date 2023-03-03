@@ -54,6 +54,15 @@ img {
     gap: 256px;
 }
 
+.main-text {
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    height: 304px;
+    align-items: flex-start;
+    gap: 32px;
+}
+
 .main-image {
     width: 512px;
     height: 304px;
